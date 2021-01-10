@@ -13,7 +13,7 @@ import Jellyfish from './assets/ocean-jelly-placeholder.svg';
 
 // Components
 import { OceanProvider, useOcean } from '@oceanprotocol/react';
-import Navbar from './components/MainNavbar';
+// import Navbar from './components/MainNavbar';
 import Panel from './components/Panel';
 import Button from './components/Button'
 import Header from './components/Header';
@@ -142,7 +142,7 @@ class App extends Component {
 
                         <div className={"container"}>
                             <div className={"navbar"}>
-                                <Navbar selected={this.state.nextToDisplay} />
+                                {/* <Navbar selected={this.state.nextToDisplay} /> */}
                             </div>
                             <div className={"content"}>
                                 {this.chooseDisplay(this.state.nextToDisplay)}
